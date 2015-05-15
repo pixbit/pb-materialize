@@ -1,12 +1,72 @@
 Follow these step to contribute:  
-1. Pull Github repository,  
-  `$ cd pb-materialize/`  
-  into the root of the directory.  
-- Run `$ npm install`  
-- Run `$ grunt` for watching and compiling sass. Alternatively run `$ grunt styles` if you like repeating yourself :smile:.
-- After you've completed your changes, update the changelog with a summary of your commits.
-- Update the version number in bower by editing `bower.json` (example: previous version = 0.0.3 -> 0.0.4).  
-- Commit, make sure you supply a commit message.
-- `$ git tag -a "(your version number ex 0.0.4)" (commit SHA) -m "(message)"`  
-- `$ git push origin master; git push origin --tags`  
-- To pull latest changes into your project, run `$ bower update`.  
+
+###### Pull Github repository ######
+```Shell
+$ cd pb-materialize/
+$ npm install
+$ grunt
+```
+
+---
+
+##### Updating the CHANGELOG (README.md)  #####
+
+After you've completed your changes, update the changelog with a summary of your commits.
+
+###### README.md ######
+```Markdown
+###### v0.0.5 (2015-15-15) ######
+- Fixed grunt issues.
+---
+###### v0.0.4 (2015-15-15) ######
+- Refactored navbar sass.
+```
+
+---
+
+##### Updating the bower version  #####
+
+Update the version number in bower by editing 'bower.json'.
+
+For example, changing previous version **0.0.5** to version **0.0.6**.  
+
+###### bower.json ######
+```JSON
+{
+  "name": "pb-materialize",
+  "version": "0.0.6",
+  "authors": [
+    "Pixbit Development"
+  ],
+  "main": "dist/pb-materialize.css",
+  "license": "MIT",
+  "homepage": "http://thinkpixbit.com"
+}
+```
+
+##### Committing your changes #####
+
+Example:
+- added a **navbar** component to library
+
+```Shell
+$ git add .
+$ git commit -m "navbar: some styling in top toolbar"
+```
+
+Example:
+- new tag of **0.0.6**
+- commit shorthand hash(SHA) of **493e209**
+
+```Shell
+$ git tag -a "0.0.6" 493e209 -m "navbar styling"  
+$ git push origin master; git push origin --tags
+```
+
+---
+
+In project using **pb-materialize**
+- To pull latest changes into your project, run:
+```Shell
+$ bower update
+```
