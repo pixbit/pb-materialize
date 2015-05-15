@@ -2,6 +2,9 @@
 
 ## Changelog
 
+###### v0.0.12 (2015-15-15)  ######
+- Card subtitle and subtext classes expanded
+---
 ###### v0.0.11 (2015-15-15)  ######
 - Height/style adjustments to navbar items and sidenav
 ---

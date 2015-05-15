@@ -1,10 +1,11 @@
 {
   "name": "pb-materialize",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "authors": [
     "Pixbit Development"
   ],
   "main": "dist/pb-materialize.css",
   "license": "MIT",
-  "homepage": "http://thinkpixbit.com"
+  "homepage": "http://thinkpixbit.com",
+  "ignore": []
 }
