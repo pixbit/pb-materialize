@@ -35,3 +35,11 @@ a.no-decorate {
   .card.pb-card .card-subtitle {
     font-size: 1.0rem;
     line-height: 16px; }
+
+.nav-wrapper .user-avatar {
+  line-height: 40px; }
+
+.nav-wrapper .user-avatar img.circle {
+  height: 34px;
+  width: 34px;
+  margin-top: 15px; }
