@@ -1,3 +1,24 @@
-.side-nav.fixed{
+ul.side-nav.fixed.collection{
+  border: none;
+  border-radius: inherit;
   position: inherit;
+  float: left;
+  li.collection-item{
+    padding: 10px 0;
+    line-height: 27px;
+    i{
+      margin: 0 16px; min-width: 40px; // combines to be 72px
+      font-size: 24px;
+      display: block;
+      float: left;
+    }
+    img.circle{
+      width: 40px;
+      height: 40px;
+      margin: 0 16px;
+    }
+    span.title{
+      font-size: 16px;
+    }
+  }
 }

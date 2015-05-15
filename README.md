@@ -2,6 +2,9 @@
 
 ## Changelog
 
+###### v0.0.9 (2015-15-15)  ######
+- Styled the sidenav i-tags and navbar height.
+---
 ###### v0.0.8 (2015-15-15)  ######
 - Expanded upon Materialize card sizes, introducing 3 new classes ( .pb-card-(small|medium|large) ).
 ---

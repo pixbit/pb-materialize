@@ -42,12 +42,33 @@ a.no-decorate {
     font-size: 1.0rem;
     line-height: 16px; }
 
-.nav-wrapper .user-avatar {
-  line-height: 40px; }
-  .nav-wrapper .user-avatar img.circle {
-    height: 34px;
-    width: 34px;
-    margin-top: 15px; }
+nav {
+  height: 56px;
+  line-height: 56px; }
+  nav .nav-wrapper .user-avatar {
+    line-height: 40px; }
+    nav .nav-wrapper .user-avatar img.circle {
+      height: 34px;
+      width: 34px;
+      margin-top: 15px; }
 
-.side-nav.fixed {
-  position: inherit; }
+ul.side-nav.fixed.collection {
+  border: none;
+  border-radius: inherit;
+  position: inherit;
+  float: left; }
+  ul.side-nav.fixed.collection li.collection-item {
+    padding: 10px 0;
+    line-height: 27px; }
+    ul.side-nav.fixed.collection li.collection-item i {
+      margin: 0 16px;
+      min-width: 40px;
+      font-size: 24px;
+      display: block;
+      float: left; }
+    ul.side-nav.fixed.collection li.collection-item img.circle {
+      width: 40px;
+      height: 40px;
+      margin: 0 16px; }
+    ul.side-nav.fixed.collection li.collection-item span.title {
+      font-size: 16px; }
