@@ -24,11 +24,14 @@ a.no-decorate {
 .card.pb-card {
   padding-bottom: 16px; }
   .card.pb-card.pb-card-small {
-    height: 150px; }
+    height: 150px;
+    max-height: 150px; }
   .card.pb-card.pb-card-medium {
-    height: 250px; }
+    height: 250px;
+    max-height: 250px; }
   .card.pb-card.pb-card-large {
-    height: 350px; }
+    height: 350px;
+    max-height: 350px; }
   .card.pb-card .col.s12 {
     padding: 0; }
   .card.pb-card .card-content {
@@ -40,7 +43,8 @@ a.no-decorate {
     line-height: 24px; }
   .card.pb-card .card-subtitle {
     font-size: 1.0rem;
-    line-height: 16px; }
+    line-height: 16px;
+    margin: 0.325rem 0; }
 
 nav {
   height: 56px;

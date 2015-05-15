@@ -4,12 +4,15 @@
   //sizes
   &.pb-card-small {
     height: 150px;
+    max-height: 150px;
   }
   &.pb-card-medium {
     height: 250px;
+    max-height: 250px;
   }
   &.pb-card-large {
     height: 350px;
+    max-height: 350px;
   }
 
   //override padding to make inline content line up with existing guidelines
@@ -31,5 +34,6 @@
   .card-subtitle {
     font-size: 1.0rem;
     line-height: 16px;
+    margin: 0.325rem 0;
   }
 }

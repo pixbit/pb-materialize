@@ -2,6 +2,9 @@
 
 ## Changelog
 
+###### v0.0.10 (2015-15-15)  ######
+- More specific heights than in v0.0.8.
+---
 ###### v0.0.9 (2015-15-15)  ######
 - Styled the sidenav i-tags and navbar height.
 ---
