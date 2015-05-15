@@ -4,7 +4,7 @@ grunt.initConfig({
   watch: {
     styles: {
       files: 'build/**/*.scss',
-      tasks: ['sass']
+      tasks: ['styles']
     }
   },
   sass: {
@@ -24,6 +24,6 @@ grunt.loadNpmTasks('grunt-contrib-sass');
 grunt.loadNpmTasks('grunt-contrib-watch');
 
 grunt.registerTask('default', ['watch']);
-grunt.registerTask('sass', ['sass']);
+grunt.registerTask('styles', ['sass:dist']);
 
 };
