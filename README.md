@@ -2,6 +2,9 @@
 
 ## Changelog
 
+###### v0.0.11 (2015-15-15)  ######
+- Height/style adjustments to navbar items and sidenav
+---
 ###### v0.0.10 (2015-15-15)  ######
 - More specific heights than in v0.0.8.
 ---

@@ -6,6 +6,7 @@ ul.side-nav.fixed.collection{
   li.collection-item{
     padding: 10px 0;
     line-height: 27px;
+    border-bottom: none;
     i{
       margin: 0 16px; min-width: 40px; // combines to be 72px
       font-size: 24px;
@@ -18,7 +19,8 @@ ul.side-nav.fixed.collection{
       margin: 0 16px;
     }
     span.title{
-      font-size: 16px;
+      font-size: 13px;
+      font-weight: bold;
     }
   }
 }

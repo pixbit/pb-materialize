@@ -2,12 +2,16 @@ nav {
   height: 56px;
   line-height: 56px;
   .nav-wrapper{
+    i{
+      line-height: 56px;
+      height: 56px;
+    }
     .user-avatar{
-      line-height: 40px;
+      line-height: 31px;
       img.circle{
         height: 34px;
         width: 34px;
-        margin-top: 15px;
+        margin-top: 11px;
       }
     }
   }
