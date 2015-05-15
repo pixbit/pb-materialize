@@ -2,8 +2,11 @@
 
 ## Changelog
 
-###### v0.0.12 (2015-15-15)  ######
+###### v0.0.13 (2015-15-15)  ######
 - sidenav collection subsection headers
+---
+###### v0.0.12 (2015-15-15)  ######
+- Card subtitle and subtext classes expanded
 ---
 ###### v0.0.11 (2015-15-15)  ######
 - Height/style adjustments to navbar items and sidenav

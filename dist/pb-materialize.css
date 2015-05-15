@@ -39,12 +39,18 @@ a.no-decorate {
   .card.pb-card .card-action.card-action-no-divider {
     border-top: none; }
   .card.pb-card .card-title {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 24px; }
   .card.pb-card .card-subtitle {
-    font-size: 1.0rem;
+    font-size: 12px;
     line-height: 16px;
-    margin: 0.325rem 0; }
+    margin: 16px 0 8px 0; }
+    .card.pb-card .card-subtitle:first-of-type {
+      margin-top: 0px; }
+  .card.pb-card .card-subtext {
+    margin: 16px; }
+    .card.pb-card .card-subtext + .card-subtext {
+      margin-top: 24px; }
 
 nav {
   height: 56px;

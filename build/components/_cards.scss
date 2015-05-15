@@ -16,7 +16,10 @@
   }
 
   //override padding to make inline content line up with existing guidelines
-  .col.s12 {padding: 0;}
+  .col.s12 {
+    padding: 0;
+  }
+
   .card-content {
     padding: 16px;
   }
@@ -28,12 +31,22 @@
   }
 
   .card-title {
-    font-size: 1.5rem;
+    font-size: 24px;
     line-height: 24px;
   }
+
   .card-subtitle {
-    font-size: 1.0rem;
+    &:first-of-type { margin-top: 0px;}
+    font-size: 12px;
     line-height: 16px;
-    margin: 0.325rem 0;
+    margin: 16px 0 8px 0;
   }
+
+  .card-subtext {
+    margin: 16px;
+    & + .card-subtext {
+      margin-top: 24px;
+    }
+  }
+
 }
