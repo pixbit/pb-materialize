@@ -13,8 +13,18 @@ $ grunt
 
 After you've completed your changes, update the changelog with a summary of your commits.
 
+Example:
+
+- tag of **0.0.6**
+- updated navbar
+
 ###### README.md ######
 ```Markdown
+---
+
+###### v0.0.6 (2015-15-15)  ######
+- Updated styling for navbar.
+
 ###### v0.0.5 (2015-15-15) ######
 - Fixed grunt issues.
 ---
