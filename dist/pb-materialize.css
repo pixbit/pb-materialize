@@ -42,3 +42,6 @@ a.no-decorate {
     height: 34px;
     width: 34px;
     margin-top: 15px; }
+
+.side-nav {
+  position: inherit; }
