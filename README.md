@@ -2,6 +2,9 @@
 
 ## Changelog
 ---
+###### v0.0.7 (2015-15-15) ######
+- left out fixed class in sidenav sass.
+---
 ###### v0.0.6 (2015-15-15) ######
 - sidenav styling.
 ---

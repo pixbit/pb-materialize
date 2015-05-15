@@ -1,6 +1,6 @@
 Follow these step to contribute:  
 
-###### Pull Github repository ######
+###### Step #0: Pull Github repository ######
 ```Shell
 $ cd pb-materialize/
 $ npm install
@@ -9,7 +9,7 @@ $ grunt
 
 ---
 
-##### Updating the CHANGELOG (README.md)  #####
+##### Step #1: Updating the CHANGELOG (README.md)  #####
 
 After you've completed your changes, update the changelog with a summary of your commits.
 
@@ -18,29 +18,27 @@ Example:
 - tag of **0.0.6**
 - updated navbar
 
-###### README.md ######
+###### Step #2: README.md ######
 ```Markdown
----
-
 ###### v0.0.6 (2015-15-15)  ######
 - Updated styling for navbar.
 
 ###### v0.0.5 (2015-15-15) ######
 - Fixed grunt issues.
----
+
 ###### v0.0.4 (2015-15-15) ######
 - Refactored navbar sass.
 ```
 
 ---
 
-##### Updating the bower version  #####
+##### Step #3: Updating the bower version  #####
 
 Update the version number in bower by editing 'bower.json'.
 
 For example, changing previous version **0.0.5** to version **0.0.6**.  
 
-###### bower.json ######
+###### Step #4: bower.json ######
 ```JSON
 {
   "name": "pb-materialize",
@@ -54,7 +52,7 @@ For example, changing previous version **0.0.5** to version **0.0.6**.
 }
 ```
 
-##### Committing your changes #####
+##### Step #5: Committing your changes #####
 
 Example:
 - added a **navbar** component to library

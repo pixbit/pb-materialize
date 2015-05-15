@@ -43,5 +43,5 @@ a.no-decorate {
     width: 34px;
     margin-top: 15px; }
 
-.side-nav {
+.side-nav.fixed {
   position: inherit; }
