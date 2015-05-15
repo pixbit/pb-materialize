@@ -2,6 +2,9 @@
 
 ## Changelog
 ---
+###### v0.0.6 (2015-15-15) ######
+- sidenav styling.
+---
 ###### v0.0.5 (2015-15-15) ######
 - Fixed grunt issues.
 ---
