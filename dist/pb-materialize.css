@@ -64,10 +64,20 @@ ul.side-nav.fixed.collection {
   border-radius: inherit;
   position: inherit;
   float: left; }
+  ul.side-nav.fixed.collection li.collection-header {
+    padding-top: 8px; }
+    ul.side-nav.fixed.collection li.collection-header:hover, ul.side-nav.fixed.collection li.collection-header.active {
+      background-color: inherit; }
+    ul.side-nav.fixed.collection li.collection-header span {
+      font-size: 13px; }
   ul.side-nav.fixed.collection li.collection-item {
     padding: 10px 0;
     line-height: 27px;
     border-bottom: none; }
+    ul.side-nav.fixed.collection li.collection-item.active {
+      background-color: #424242; }
+    ul.side-nav.fixed.collection li.collection-item.with-bottom-border {
+      border-bottom: 1px solid #ccc; }
     ul.side-nav.fixed.collection li.collection-item i {
       margin: 0 16px;
       min-width: 40px;

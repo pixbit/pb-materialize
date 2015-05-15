@@ -3,10 +3,25 @@ ul.side-nav.fixed.collection{
   border-radius: inherit;
   position: inherit;
   float: left;
+  li.collection-header{
+    padding-top: 8px;
+    &:hover, &.active{
+      background-color: inherit;
+    }
+    span {
+      font-size: 13px;
+    }
+  }
   li.collection-item{
     padding: 10px 0;
     line-height: 27px;
     border-bottom: none;
+    &.active{
+      background-color: #424242;
+    }
+    &.with-bottom-border{
+      border-bottom: 1px solid #ccc;
+    }
     i{
       margin: 0 16px; min-width: 40px; // combines to be 72px
       font-size: 24px;
