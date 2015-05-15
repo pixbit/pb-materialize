@@ -27,6 +27,8 @@ a.no-decorate {
     padding: 0; }
   .card.pb-card .card-content {
     padding: 16px; }
+  .card.pb-card .card-action.card-action-no-divider {
+    border-top: none; }
   .card.pb-card .card-title {
     font-size: 1.5rem;
     line-height: 24px; }

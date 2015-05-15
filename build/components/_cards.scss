@@ -8,7 +8,9 @@
   }
 
   .card-action {
-
+    &.card-action-no-divider {
+      border-top: none;
+    }
   }
 
   .card-title {
