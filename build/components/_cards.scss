@@ -1,0 +1,22 @@
+.card.pb-card {
+  padding-bottom: 16px;
+
+  //override padding to make inline content line up with existing guidelines
+  .col.s12 {padding: 0;}
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-action {
+
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    line-height: 24px;
+  }
+  .card-subtitle {
+    font-size: 1.0rem;
+    line-height: 16px;
+  }
+}
