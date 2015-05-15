@@ -1,0 +1,35 @@
+.fullImage {
+  width: 100%; }
+
+img.circle {
+  border: 1px solid transparent;
+  border-radius: 100%; }
+
+.white-text {
+  color: white !important; }
+
+.black-text {
+  color: black !important; }
+
+a.no-decorate {
+  color: black;
+  text-decoration: none; }
+
+.hide {
+  display: none; }
+
+.left {
+  float: left; }
+
+.card.pb-card {
+  padding-bottom: 16px; }
+  .card.pb-card .col.s12 {
+    padding: 0; }
+  .card.pb-card .card-content {
+    padding: 16px; }
+  .card.pb-card .card-title {
+    font-size: 1.5rem;
+    line-height: 24px; }
+  .card.pb-card .card-subtitle {
+    font-size: 1.0rem;
+    line-height: 16px; }
