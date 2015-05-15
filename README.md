@@ -1,6 +1,9 @@
 #[Pixbit](http://www.thinkpixbit.com) [Materialize](http://github.com/dogfalo/materialize) Add-on
 
 ## Changelog
+
+###### v0.0.8 (2015-15-15)  ######
+- Expanded upon Materialize card sizes, introducing 3 new classes ( .pb-card-(small|medium|large) ).
 ---
 ###### v0.0.7 (2015-15-15) ######
 - left out fixed class in sidenav sass.

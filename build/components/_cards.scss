@@ -1,6 +1,17 @@
 .card.pb-card {
   padding-bottom: 16px;
 
+  //sizes
+  &.pb-card-small {
+    height: 150px;
+  }
+  &.pb-card-medium {
+    height: 250px;
+  }
+  &.pb-card-large {
+    height: 350px;
+  }
+
   //override padding to make inline content line up with existing guidelines
   .col.s12 {padding: 0;}
   .card-content {
