@@ -2,6 +2,9 @@
 
 ## Changelog
 
+###### v0.0.14 (2015-15-15)  ######
+- sidenav collection items with user images
+---
 ###### v0.0.13 (2015-15-15)  ######
 - sidenav collection subsection headers
 ---

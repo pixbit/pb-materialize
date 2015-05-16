@@ -82,6 +82,12 @@ ul.side-nav.fixed.collection {
     border-bottom: none; }
     ul.side-nav.fixed.collection li.collection-item.active {
       background-color: #424242; }
+      ul.side-nav.fixed.collection li.collection-item.active span.title.grey-text.text-darken-1 {
+        color: white !important; }
+    ul.side-nav.fixed.collection li.collection-item.with-img {
+      height: 56px; }
+      ul.side-nav.fixed.collection li.collection-item.with-img img, ul.side-nav.fixed.collection li.collection-item.with-img span {
+        float: left; }
     ul.side-nav.fixed.collection li.collection-item.with-bottom-border {
       border-bottom: 1px solid #ccc; }
     ul.side-nav.fixed.collection li.collection-item i {

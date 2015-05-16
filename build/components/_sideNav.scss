@@ -18,6 +18,15 @@ ul.side-nav.fixed.collection{
     border-bottom: none;
     &.active{
       background-color: #424242;
+      span.title.grey-text.text-darken-1{
+        color: white !important;
+      }
+    }
+    &.with-img{
+      height: 56px;
+      img, span{
+        float: left;
+      }
     }
     &.with-bottom-border{
       border-bottom: 1px solid #ccc;
