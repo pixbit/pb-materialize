@@ -36,21 +36,7 @@ Example:
 
 ---
 
-##### Step #3: Updating the bower version  #####
-
-Update the version number in bower by editing 'bower.json'.
-
-For example, changing previous version **0.0.5** to version **0.0.6**.  
-
----
-
-###### Step #4: Update bower package version ######
-```Shell
-$ bower version [<newversion> | major | minor | patch] -m "Upgrade for whatever reasons"
-```
----
-
-##### Step #5: Committing your changes #####
+##### Step #4: Committing your changes #####
 
 Example:
 - added a **navbar** component to library
@@ -58,6 +44,13 @@ Example:
 ```Shell
 $ git add .
 $ git commit -m "navbar: some styling in top toolbar"
+```
+
+---
+
+###### Step #5: Update bower package version ######
+```Shell
+$ bower version [<newversion> | major | minor | patch] -m "Upgrade for whatever reasons"
 ```
 
 ---
