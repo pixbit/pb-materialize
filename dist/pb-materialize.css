@@ -21,6 +21,10 @@ a.no-decorate {
 .left {
   float: left; }
 
+.content-subheader {
+  font-size: 13px;
+  line-height: 20px; }
+
 .card.pb-card {
   padding-bottom: 16px; }
   .card.pb-card.pb-card-small {

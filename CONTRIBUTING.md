@@ -1,5 +1,7 @@
 Follow these step to contribute:  
 
+---
+
 ###### Step #0: Pull Github repository ######
 ```Shell
 $ cd pb-materialize/
@@ -17,6 +19,8 @@ Example:
 
 - tag of **0.0.6**
 - updated navbar
+
+---
 
 ###### Step #2: README.md ######
 ```Markdown
@@ -38,6 +42,8 @@ Update the version number in bower by editing 'bower.json'.
 
 For example, changing previous version **0.0.5** to version **0.0.6**.  
 
+---
+
 ###### Step #4: bower.json ######
 ```JSON
 {
@@ -51,6 +57,7 @@ For example, changing previous version **0.0.5** to version **0.0.6**.
   "homepage": "http://thinkpixbit.com"
 }
 ```
+---
 
 ##### Step #5: Committing your changes #####
 
@@ -62,6 +69,10 @@ $ git add .
 $ git commit -m "navbar: some styling in top toolbar"
 ```
 
+---
+
+##### Step #6: Tagging your changes #####
+
 Example:
 - new tag of **0.0.6**
 - commit shorthand hash(SHA) of **493e209**
@@ -72,6 +83,8 @@ $ git push origin master; git push origin --tags
 ```
 
 ---
+
+##### Step #7: Pull the changes to your project #####
 
 In project using **pb-materialize**
 - To pull latest changes into your project, run:
