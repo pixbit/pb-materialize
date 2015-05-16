@@ -23,7 +23,14 @@ a.no-decorate {
 
 .content-subheader {
   font-size: 13px;
-  line-height: 20px; }
+  line-height: 20px;
+  padding-left: 20px; }
+
+.content-canvas.with-side-nav-left {
+  padding-left: 240px; }
+
+.content-canvas.with-side-nav-right {
+  padding-right: 240px; }
 
 .card.pb-card {
   padding-bottom: 16px; }
@@ -70,6 +77,7 @@ nav {
       margin-top: 11px; }
 
 ul.side-nav.fixed.collection {
+  padding-top: 8px;
   border: none;
   border-radius: inherit;
   position: inherit;

@@ -22,7 +22,7 @@ Example:
 
 ---
 
-###### Step #2: README.md ######
+###### Step #2: Annotate the CHANGELOG.md ######
 ```Markdown
 ###### v0.0.6 (2015-15-15)  ######
 - Updated styling for navbar.
@@ -44,18 +44,9 @@ For example, changing previous version **0.0.5** to version **0.0.6**.
 
 ---
 
-###### Step #4: bower.json ######
-```JSON
-{
-  "name": "pb-materialize",
-  "version": "0.0.6",
-  "authors": [
-    "Pixbit Development"
-  ],
-  "main": "dist/pb-materialize.css",
-  "license": "MIT",
-  "homepage": "http://thinkpixbit.com"
-}
+###### Step #4: Update bower package version ######
+```Shell
+$ bower version [<newversion> | major | minor | patch] -m "Upgrade for whatever reasons"
 ```
 ---
 
@@ -71,14 +62,9 @@ $ git commit -m "navbar: some styling in top toolbar"
 
 ---
 
-##### Step #6: Tagging your changes #####
-
-Example:
-- new tag of **0.0.6**
-- commit shorthand hash(SHA) of **493e209**
+##### Step #6: Pushing your changes #####
 
 ```Shell
-$ git tag -a "0.0.6" 493e209 -m "navbar styling"  
 $ git push origin master; git push origin --tags
 ```
 

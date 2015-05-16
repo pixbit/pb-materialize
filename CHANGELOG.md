@@ -1,5 +1,10 @@
 ## Changelog
 
+###### v0.0.16 (2015-16-15) ######
+- Padded content subheader
+- Padded top of side-nav
+- Created content canvas class that adjusts for fixed side-navs on left and right
+---
 ###### v0.0.15 (2015-16-15) ######
 - Split some steps in CONTRIBUTE.md
 - renamed helpers to globals

@@ -22,4 +22,11 @@ a.no-decorate {
 .content-subheader{
   font-size: 13px;
   line-height: 20px;
+  padding-left: 20px;
+}
+.content-canvas.with-side-nav-left{
+  padding-left: 240px;
+}
+.content-canvas.with-side-nav-right{
+  padding-right: 240px;
 }
